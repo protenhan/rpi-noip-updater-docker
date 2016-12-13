@@ -8,10 +8,15 @@ RUN apk update \
             curl \
  && git clone https://github.com/mdmower/bash-no-ip-updater.git \
  && chmod +x /bash-no-ip-updater/noipupdater.sh \
- && touch /bash-no-ip-updater/config
+ && touch /bash-no-ip-updater/config \
+ && apk del git \
+ && rm -rf /var/lib/apt/lists/*
+
+COPY start.sh /start
 
 ENV USERNAME "email@address.com"
 ENV PASSWORD "password"
 ENV HOST "host.domain.com"
+ENV UPDATE_INTERVAL 30m
 
-CMD ["/bash-no-ip-updater/noipupdater.sh"]
+ENTRYPOINT ["/start"]
