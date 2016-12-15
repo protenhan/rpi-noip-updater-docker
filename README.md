@@ -5,7 +5,7 @@
 # rpi-noip-updater-docker
 Docker container for updating DNS entries at [noip.com](http://noip.com) build for Raspberry Pi.
 
-This container packages the no-ip update script from @mdmower [https://github.com/mdmower/bash-no-ip-updater](https://github.com/mdmower/bash-no-ip-updater) into an ARM alpine linux container.
+This container packages the no-ip update script from [@mdmower](https://github.com/mdmower) [https://github.com/mdmower/bash-no-ip-updater](https://github.com/mdmower/bash-no-ip-updater) into an ARM alpine linux container.
 
 [This project at Github](https://github.com/protenhan/rpi-noip-updater-docker/blob/master/README.md)
 [This project at Dockerhub](https://hub.docker.com/r/protenhan/rpi-noip-updater-docker/)
