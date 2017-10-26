@@ -1,4 +1,4 @@
-FROM hypriot/rpi-alpine-scratch:latest
+FROM hypriot/rpi-alpine:latest
 Maintainer @protenhan
 
 RUN apk update \ 

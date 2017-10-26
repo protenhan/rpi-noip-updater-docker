@@ -1,3 +1,4 @@
+[![Build Status](https://travis-ci.org/protenhan/rpi-noip-updater-docker.svg?branch=master)](https://travis-ci.org/protenhan/rpi-noip-updater-docker)
 [![Docker Stars](https://img.shields.io/docker/stars/protenhan/rpi-noip-updater-docker.svg)](https://hub.docker.com/r/protenhan/rpi-noip-updater-docker/)
 [![Docker Pulls](https://img.shields.io/docker/pulls/protenhan/rpi-noip-updater-docker.svg)](https://hub.docker.com/r/protenhan/rpi-noip-updater-docker/)
 [![ImageLayers](https://images.microbadger.com/badges/image/protenhan/rpi-noip-updater-docker.svg)](https://microbadger.com/#/images/protenhan/rpi-noip-updater-docker/)
