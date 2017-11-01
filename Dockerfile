@@ -3,7 +3,7 @@ Maintainer @protenhan
 
 RUN apk update \ 
  && apk upgrade \
- && apk add git \
+ && apk add --no-cache git \
             bash \
             curl \
  && git clone https://github.com/mdmower/bash-no-ip-updater.git \
